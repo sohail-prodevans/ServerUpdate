@@ -1,6 +1,6 @@
 ---
 - name: Update Linux Systems
-  hosts: {{ip_address}}
+  hosts: all
   remote_user: root
   tasks:
   - name: upgrade all packages
